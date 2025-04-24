@@ -1,0 +1,438 @@
+/* Navbar Section */
+.navbar-custom {
+    transition: all 0.3s ease;
+    background-color: transparent;
+  }
+
+.navbar-scrolled {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+#navbarRealEstate{
+    font-family: "Cinzel", serif;
+}
+.navbar-nav{
+    font-size: 20px;
+}
+.title1{
+    font-family: "Source Sans 3", sans-serif;
+    font-size:25px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    font-weight:bold; 
+}
+.title2{
+    font-family: "Cinzel", serif;
+    font-size: 60px;
+    color:white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); 
+}
+
+/* Masthead Section */
+header.masthead {
+    padding-top: 15rem;
+    padding-bottom: 12.5rem;
+}
+  header.masthead .masthead-subheading {
+      font-size: 2rem;
+      font-style: italic;
+      line-height: 2.25rem;
+      margin-bottom: 2rem;
+      
+}
+header.masthead .masthead-heading {
+      font-size: 4rem;
+      font-weight: 700;
+      line-height: 4.5rem;
+      margin-bottom: 3rem;
+     
+}
+header.masthead {
+        padding-top: 19rem;
+        padding-bottom: 20rem;
+        text-align: center;
+        color:white ;
+        background-image: url("Ponds.png");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+}
+
+/* Meet your Realtor Section*/
+.About{
+    min-height:80vh;
+    background: linear-gradient(to right, white, rgba(0, 0, 0, 0.2));
+}
+#name{
+    font-family: "Cinzel", serif;
+    font-size: 90px;
+    text-shadow: 2px 3px 6px rgba(54,21,0, 0.4);
+}
+
+#realtor{
+    font-size:30px;
+    font-family: "Source Sans 3", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+#realtor2{
+    font-size: 45px;
+    font-family: "Cinzel", serif, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* GetitDone */
+.row1{
+    background-image: linear-gradient(1000deg,#72bb53,#c8f391);
+}
+.row2{
+    background: linear-gradient(to right, white, rgba(0, 0, 0, 0.2));
+}
+.row3{
+    background-image: linear-gradient(1000deg,#72bb53,#c8f391);
+}
+.top{
+    font-family: "Cinzel", serif;
+    color: var(--primary-color2);
+    font-weight: 700;
+    font-size: 80px;
+    text-shadow: 2px 3px 6px rgba(54,21,0, 0.4);
+}
+.top1{
+    font-family: "Cinzel", serif;
+    color: var(--primary-color2);
+    font-weight: 700;
+    font-size: 80px;
+    text-shadow: 2px 3px 6px rgba(54,21,0, 0.4);
+}
+.top2{
+    font-family: "Cinzel", serif;
+    color: var(--primary-color2);
+    font-weight: 700;
+    font-size: 80px;
+    text-shadow: 2px 3px 6px rgba(54,21,0, 0.4);   
+}
+.fit-image{
+    width: 100%;   
+    object-fit: fill;
+}
+#details{
+    font-size:28px;
+    font-family: "Source Sans 3", sans-serif;
+    text-align:justify;
+}
+#details1{
+    font-size:28px;
+    font-family: "Source Sans 3", sans-serif;
+    text-align:justify;
+}
+#details2{
+    font-size:28px;
+    font-family: "Source Sans 3", sans-serif;
+    text-align:justify;
+}
+/* Find your dream Home */
+
+.dreamhome{
+    font-family: "Cinzel", serif;
+    color: var(--primary-color2);
+    font-weight: 700;
+    font-size: 70px;
+    text-shadow: 2px 3px 6px rgba(54,21,0, 0.4);   
+}
+.dreamhome2{
+    font-family: "Cinzel", serif;
+    font-size:50px;
+    color:rgb(173, 140, 140);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+}
+
+.title5{
+    font-family: "Source Sans 3", sans-serif;
+    font-size:25px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    font-weight:bold; 
+    text-align: start;
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+
+#button6{
+    font-family: "Cinzel", serif;
+}
+/* Partners */
+
+.images {
+    overflow: hidden;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    cursor: pointer;
+    margin: 0 15px;
+    box-shadow: 0 0 25px 1px rgba(0, 0, 0, .3);
+    transition: .5s;
+    background-color: #555
+}
+.images:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    transform: translate(-140%, -50%);
+    background-color: limegreen;
+    opacity: 0.8;
+    border-radius: 50%;
+    transition: .8s
+}
+.images:hover:after {
+    transform: translate(-50%, -50%)
+}
+.images:hover img {
+    transform: translate(-50%, -50%) scale(1.3) rotate(20deg)
+}
+.imgs {
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .8s
+}
+h6 {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-2000px, -50%);
+    color: #fff;
+    transition: .8s;
+    transition-timing-function: ease-in;
+    
+}
+.images:hover h6 {
+    transform: translate(-50%, -50%);
+    transition-timing-function: ease;
+    font-size: 30px;
+    font-family: "Source Sans 3", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+/* Carousel */
+.carousel-item {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .glass-overlay {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    color: #fff;
+    max-width: 400px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    font-family: "Cinzel", serif;
+  }
+  .glass-overlay h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .glass-overlay p {
+    font-size: 1.2rem;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 50%;
+  }
+
+  /* Our Services */
+.scroll-animate {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+  
+.scroll-animate.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.services{
+    font-family: "Cinzel", serif;
+    font-size:60px;
+    color:rgb(173, 140, 140);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.headings{
+    font-family: "Cinzel", serif;
+    font-size:40px;
+    color:rgb(173, 140, 140);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Info */
+
+.contact-info i {
+    font-size: 20px;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #00204a;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #fff; }
+  
+  .contact-info h4, .contact-info .h4 {
+    font-size: 18px;
+    padding: 0 0 0 60px; }
+  
+  .contact-info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px; }
+
+.call1{
+        font-family: "Cinzel", serif;
+        color: var(--primary-color2);
+        font-weight: 700;
+        font-size: 80px;
+        text-shadow: 2px 3px 6px rgba(54,21,0, 0.4);
+}
+
+
+/* Footer */
+.headings1{
+    font-family: "Cinzel", serif;
+    font-size: 55px;
+    color:black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); 
+}
+
+.headings2{
+    font-family: "Cinzel", serif;
+    font-size:29px;
+    color:rgb(173, 140, 140);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.paragraph1{
+    font-family: "Source Sans 3", sans-serif;
+    text-align: justify;
+
+}
+.address{
+    font-family: "Source Sans 3", sans-serif;
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.25);
+}
+.four {
+    background-image: linear-gradient(1000deg, #d1ebb0, #dbf5d2);
+    background-image: linear-gradient(1000deg, #bbecba, #98cde7);
+}
+
+.myfooter {
+    background-color: rgba(255, 254, 254, 0.6);
+}
+
+.input1 {
+    outline: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    height: 50px;
+}
+
+.input2 {
+    outline: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    height: 50px;
+}
+
+.input1:focus {
+    -webkit-box-shadow: 0 3px 10px -2px rgba(0 0 0 0.2) !important;
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
+}
+
+.input2:focus {
+    -webkit-box-shadow: 0 3px 10px -2px rgba(0 0 0 0.2) !important;
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
+}
+
+.subscribe_btn {
+    background-color: #34aeeb !important;
+    height: 50px;
+}
+
+.subscribe_btn:hover {
+    background-color: #1b94d1 !important;
+}
+
+.linesafooter {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c6c7c3;
+}
+
+.click_footer:hover {
+    color: #34aeeb !important;
+}
+
+.footer_links:hover {
+    font-size: 19px;
+    color: #34aeeb !important;
+    
+}
+
+.privacy_footer:hover {
+    color: #34aeeb !important;
+}
+
+/* / FOOTER END */
+
+.green_btn{
+    color: white;
+    font-size:18px;
+    background-color: #5D9943;
+    border-radius: 30px;
+    border-width: 0;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.20s, padding 0.40s, margin 0.40s;
+    text-decoration: none;
+}
+.green_btn:hover{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: white !important;
+}
+.green_btn:active{
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+
+
